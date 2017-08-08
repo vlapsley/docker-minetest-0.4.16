@@ -95,7 +95,7 @@ apk add --no-cache \
 
 # copy games to temporary folder
  mkdir -p \
-	/defaults/games && \
+	/defaults/games/minetest && \
  cp -pr  /usr/share/minetest/games/* /defaults/games/ && \
 
 # download and extract minetest 0.4.16 stable game from git
