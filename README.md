@@ -2,7 +2,7 @@
 [appurl]: http://www.minetest.net/
 [hub]: https://hub.docker.com/r/linuxserver/minetest/
 
-This image is based on the [LinuxServer.io][linuxserverurl] build at [DockerHub][hub]. Instead of running a server with the development verion of Minetest, this server runs stable version 0.4.16
+This image is based on the [LinuxServer.io][linuxserverurl] build at [DockerHub][hub]. Instead of running a server with the development version of Minetest, this server runs stable version 0.4.16
 
 # vlapsley/minetestserver-0.4.16
 [Minetest][appurl] (server) is a near-infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft, and the like.
