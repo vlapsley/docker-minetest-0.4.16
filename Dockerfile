@@ -67,6 +67,9 @@ apk add --no-cache \
  make && \
  make install && \
 
+# prep for minetest compile
+ mkdir -p /tmp/minetest && \
+ 
 # download and compile minetestserver 0.4.16 from git
  curl -L -O https://github.com/minetest/minetest/archive/0.4.16.tar.gz && \
  tar -xf 0.4.16.tar.gz && cp -r minetest-0.4.16/* /tmp/minetest/ && \
